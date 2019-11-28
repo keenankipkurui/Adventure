@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html>
+<head>
+
+<title>HOMEPAGE</title>
+    <style>
+        body {
+            background-image: url("beach2.jpeg");
+        background-repeat:no-repeat;
+       background-size:cover;
+        }
+    </style>
+<style type="text/css"> 
+@import url("homepage.css")
+
+
+    
+</style>
+</head>
+    
+
+<div id="nav">
+<ul>
+<li><a href="homepage.html">HOME</a></li>
+<li><a href="about.html"> ABOUT US </a></li>
+<li><a href="costs.html"> COSTS </a></li>
+<li><a href="registration.html"> REGISTRATION </a></li>
+<li><a href="schedule.html"> SCHEDULE </a></li>
+<li><a href="sites and activities.html"> SITES AND ACTIVITIES </a></li>
+<li><a href="accomodation.html"> ACCOMODATION </a></li>
+<li><a href="gallery.html"> GALLERY </a></li>
+<li><a href="sponsors.html"> SPONSORS </a></li>
+<li><a href="Comments.html"> COMMENTS </a></li>
+
+</ul>
+</div>
+ 
+
+
+<div id="slider">
+  <img class="mySlides" src="pics/slide1.jpg" style="width:100px;length:20px">
+  <img class="mySlides" src="pics/slide1.jpg" style="width:100px;length:50px">
+  <img class="mySlides" src="pics/slide1.jpg" style="width:100px;length:50px">
+  <img class="mySlides" src="pics/slide1.jpg" style="width:100px;length:50px">
+
+ 
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<div id="content">
+<div id="main">
+<br>
+<h1>Adventure To the Coast</h1> 
+</br>
+<p>
+This is an event organised by a group of students for their easter holidays yearly.
+It is a fun time for the youth of today since students as well as families are welcome for this event. It not only gives the participants a break from the routine and  a time to social with all age groups.<br>
+We like to work with you to understand your idea of a perfect vacation so we ask you to get the ball rolling by completing Our Vacation Request. <br>From this we can design an outline itinerary and then it is just a matter of fine tuning to make sure the detail is exactly right and personalized to your family.<br>
+
+ 
+
+We are a small country but traveling around can use up your hard earned vacation. We can help you spend as much time as you want in the diverse areas of this exciting country. <br>From the beautiful sandy beaches of the Mombasa coast to the majestic historical monuments or the Gedi ruins of Malindi or wild parks and reserves. We will include activities of your choice to view these spectacles.<br>
+
+ 
+
+Everyone has a different idea of vacation time and we have welcomed families large and small or even groups of friends who want to either be as active as possible, or who want to relax and enjoy this lush environment and tropical climate. <br>Tap into our knowledge of boutique bed and breakfasts, luxury hotels and secluded rainforest camps to add variety and unique experiences. 
+</p>
+<font color="orange">
+<hr>
+<nav>
+<li><a href="about.html"><img src = "pics/Next-icon.png" width="10%" height="10%" align="bottom"></img></a></li>
+</ul>
+</nav>
+</font>
+</div>
+
+<div id="news">
+    
+<br>
+<p id="A"><img src = "pics/best-exp-pic.jpg" width="100%" height="300" align="center"></p>
+</br>
+
+</div>
+<div id="links">
+<br>
+<p id="A"><img src ="beach1.jpeg" width="100%" height="400" align="center"></p>
+</br>
+
+</div>
+</div>
+
+</html>

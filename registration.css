@@ -1,0 +1,141 @@
+
+
+
+
+body{background-color:white;}
+
+ul {
+list-style-type: none;
+margin: 2;
+padding: 10;
+}
+ul li {
+float: left;
+}
+
+a { text-decoration: none;font-family:Papyrus, fantasy; font-size: 13px}
+a:link { color: green; }
+a:visited { color: green; }
+
+
+
+a:hover, a:focus {
+background-color: red;
+letter-spacing: 3px;
+color: black;
+}
+
+
+
+#nav ul li a {
+display: block;
+padding: .75em;
+border: 3px solid red;
+border-radius: .75em;
+margin: .25em;
+}
+
+a.smooth {
+display: block;
+text-decoration:none;
+text-align: center;
+padding: 1em 2em;
+width: 10em;
+border-radius: 1.5em;
+color: #fff;
+background-color: mediumblue;
+transition-property: background-color, color, letter-spacing;
+transition-duration: 0.3s, 2s, 0.3s;
+transition-timing-function: ease-out, ease-in, ease-out;
+}
+
+a.smooth:hover, a.smooth:focus {
+background-color: red;
+}
+
+#content {
+position: relative;
+margin: 0;
+color:RED;
+font: candara;
+}
+
+#main {
+width: 50%;
+position: absolute;
+top: 0;
+left: 25%;
+margin: 0;
+}
+
+
+#news {
+width: 20%;
+position: absolute;
+top: 0;
+left: 2.5%;
+margin: 0;
+}
+#links {
+width: 20%;
+position: absolute;
+top: 0;
+right: 2.5%;
+margin: 0;
+}
+
+
+form {
+
+width: 40em;
+border: 1px solid #666;
+border-radius: 10px;
+box-shadow: .2em .2em .5em #999;
+background-color:#d0e9f6;
+padding: 1em;
+overflow: hidden;
+}
+label {
+display: block;
+width: 10em;
+margin-right: .5em;
+color: #04699d;
+float: left;
+}
+input.textinput {
+width: 30em;
+height: 2em;
+border: 1px solid #666;
+}
+textarea {
+display: block;
+width: 30em;
+height: 5em;
+border: 1px solid #666;
+margin-bottom: 1em;
+line-height: 1.25;
+overflow: auto;
+resize: none;
+}
+input.textinput, textarea {
+font-family: "Papyrus", fantasy;;
+font-size: .875em;
+}
+input[type="submit"], input[type="reset"] {
+display: block;
+width: 10em;
+height: 2em;
+float: left;
+background: white;
+font-size: inherit;
+border: 1px solid #04699d;
+border-radius: 4px;
+box-shadow: 2px 2px 3px rgba(0,0,0,.5);
+}
+input[type="submit"] {
+margin-left: 10.5em;
+margin-right: 1em;
+color: #C00; /* the submit button text is attention-getting red */
+}
+
+
